@@ -1,18 +1,19 @@
 {
     "project": {
         "name": "mybgg",
-        "title": ""
+        "title": "Webby's boardgames"
     },
     "boardgamegeek": {
-        "user_name": "YOUR_BGG_USERNAME",
+        "user_name": "Chilligurl",
         "extra_params": {
             "own": 1
         }
     },
     "algolia": {
-        "app_id": "YOUR_APP_ID",
-        "api_key_search_only": "YOUR_PUBLIC_API_KEY",
-        "index_name": "YOUR_INDEX_NAME",
-        "hits_per_page": 24
+        "app_id": "8EW5U9SV3U",
+        "api_key_search_only": "0cd4526eaf5101ca11fde1e688a8510a",
+        "index_name": "Boardgames",
+        "hits_per_page": 50,
+	  "sort_by": "asc(name)"
     }
 }
